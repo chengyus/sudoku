@@ -101,13 +101,13 @@ s.paste_input
  
 7
 4
- 
+
 3
  
  
 5
 
-^explicit blank enter line,
+# ^explicit blank line,
  => 0..80 
 2.7.1 :003 > puts s.to_s
 7 - - 5 2 - - 8 -
