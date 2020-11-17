@@ -23,9 +23,9 @@ the easist row or column; that would be interesting).
 irb -r ./sudoku.rb
 
 ### Sample irb lines
-
+```
 s = Suduko.new
-s.paste\_input
+s.paste_input
 7
  
  
@@ -109,7 +109,7 @@ s.paste\_input
 
 ^explicit blank enter line,
  => 0..80 
-2.7.1 :003 > puts s.toi\_s
+2.7.1 :003 > puts s.to_s
 7 - - 5 2 - - 8 -
 1 8 - - 4 - - 3 -
 - 6 2 - - 3 7 9 -
@@ -122,7 +122,7 @@ s.paste\_input
  => nil 
 2.7.1 :004 > solve(s)
  => true 
-2.7.1 :005 > puts s.to\_s
+2.7.1 :005 > puts s.to_s
 7 3 9 5 2 6 4 8 1
 1 8 5 7 4 9 6 3 2
 4 6 2 1 8 3 7 9 5
@@ -133,4 +133,4 @@ s.paste\_input
 5 2 3 9 6 7 8 1 4
 6 7 4 8 3 1 2 5 9
  => nil 
-
+```
